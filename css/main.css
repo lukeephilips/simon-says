@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+#one, #two, #three, #four  {
+  height: 400px;
+  width: 400px;
+  margin: 5px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .25;
+}
+#one {
+  background-image: url(http://img.soundtrackcollector.com/cd/large/Die_hard_aLLLCD1188.jpg);
+}
+#two {
+  background-image: url(http://img.soundtrackcollector.com/cd/large/Die_Hard_2_Varese_VSD_5273.jpg);
+}
+#three {
+  background-image: url(http://img.photobucket.com/albums/v374/Marvdogger/Die-Hard-With-a-Vengeance-HQ.jpg);
+}
+#four {
+  background-image: url(http://i1144.photobucket.com/albums/o487/scorepranos/DH5_zps98e4bc96.jpg);
+}
