@@ -1,17 +1,17 @@
 function Simon(name) {
   this.name = name;
   this.stepsArray = [];
+  this.userClicks = [];
 }
 dumb = ["one", "two", "three", "four"];
+var randomNumber = function() {
+  return Math.floor(Math.random() * 4);
+};
 
 Simon.prototype.startGame = function() {
-  randomNumber = Math.floor(Math.random() * 4);
-
-  this.stepsArray.push(dumb[randomNumber]);
+  this.stepsArray.push(dumb[randomNumber()]);
 };
 
-Simon.prototype.nextTurn = function() {
-  stepsArray.push(randomNumber);
-};
+
 
 exports.simonModule = Simon;
